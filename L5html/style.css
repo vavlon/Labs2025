@@ -1,0 +1,118 @@
+body {
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0;
+    background-color: #3a4965; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.pricing-table {
+    width: 90%;
+    max-width: 960px;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: white; 
+}
+
+.pricing-table th, .pricing-table td {
+    padding: 15px;
+    text-align: center;
+}
+
+.pricing-table th {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+.pricing-table thead tr:first-child th:first-child {
+    background-color: #444;
+}
+
+.pricing-table thead tr:first-child th:nth-child(2) {
+    background-color: #8BC34A;
+}
+
+.pricing-table thead tr:first-child th:nth-child(3) {
+    background-color: #F44336;
+}
+
+.pricing-table thead tr:first-child th:nth-child(4) {
+    background-color: #009688;
+}
+
+.price {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.per-month {
+    color: #777;
+    font-size: 0.8em;
+}
+
+.feature-row td {
+    background-color: #eee;
+    border-bottom: 1px solid #ddd;
+}
+
+.feature-row:nth-child(odd) td {
+    background-color: #f9f9f9;
+}
+
+.icon {
+    margin-right: 8px;
+    color: #555;
+}
+
+.button-row td {
+    padding: 20px;
+    background-color: #ddd;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button {
+    background-color: #555;
+}
+
+.buy-button-standard {
+    background-color: #8BC34A;
+}
+
+.buy-button-ultimate {
+    background-color: #F44336;
+}
+
+.buy-button-premium {
+    background-color: #009688;
+}
+
+.contact-button:hover {
+    background-color: #333;
+}
+
+.buy-button-standard:hover {
+    background-color: #689F38;
+}
+
+.buy-button-ultimate:hover {
+    background-color: #D32F2F;
+}
+
+.buy-button-premium:hover {
+    background-color: #00796B;
+}

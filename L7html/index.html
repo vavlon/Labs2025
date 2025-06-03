@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Frontend Wars</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.cdnfonts.com/css/star-jedi" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="stars"></div>
+        <div class="star-wars">
+            <div class="crawl">
+                <div class="title">LABA 7</div>
+                <div class="subtitle">star-wars</div>
+                <div class="text">
+                    <p>It is a period of rapid technological change. Rebel developers, striking from hidden code repositories, have won their first victory against the evil Backend Empire.</p>
+                    <p>During the battle, Rebel spies managed to steal secret API schematics to the Empire's ultimate weapon, the MONOLITH, an armored framework with enough power to destroy an entire startup.</p>
+                    <p>Pursued by the Empire's sinister agents, Princess Frontend races home aboard her starship, custodian of the stolen schematics that can save her people and restore freedom to the web...</p>
+                    <p>The JavaScript Awakens as new frameworks emerge to challenge the Empire's dominance. React and Vue lead the charge, while Angular struggles to maintain its relevance in a rapidly changing galaxy.</p>
+                    <p>Meanwhile, in the Outer Rim, Node.js forges alliances between frontend and backend, promising a new era of full-stack harmony. But dark forces gather in the shadows of legacy code...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const crawl = document.querySelector('.crawl');
+
+        function restartAnimation() {
+            crawl.classList.remove('crawl');
+            void crawl.offsetWidth;
+            crawl.classList.add('crawl');
+        }
+
+        setInterval(restartAnimation, 30000);
+    </script>
+</body>
+</html>
